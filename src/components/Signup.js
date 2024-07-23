@@ -92,6 +92,9 @@ const Signup = () => {
           </p>
         </div>
       </div>
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
+        <h1 className="text-6xl font-bold text-gray-300 opacity-50">VOOSH</h1>
+      </div>
       <ToastContainer />
     </div>
   );
